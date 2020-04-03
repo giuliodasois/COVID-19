@@ -1,13 +1,23 @@
 #!/usr/bin/python3
 
 #
-# 2020-04-01 Version 0.1
+# 2020-04-03 Version 0.2
 # giulio
-# COVID-19 openZH
+# uses data from COVID-19 openZH
 #
 # this script merges all files in the directory defined by inp_path
+# initializes integer columns with 0 not with "" as with the original script does
+# (it's difficult to calculate with characters ;-)
+#
+# example openzh/COVID_19 original merged data: 
+# Data from several cantons have columns with integer values that are initialized as strings ""
+#
+# 2020-02-27,19:17,BS,"",0,"","","","","",https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
 # 
-# to be improved ;-)
+# example of an output row after the merge with this script
+# 2020-02-27,19:17,'BS',0,0,0,0,0,0,0,https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html,,
+#
+# this simple script may be improved ;-) 
 #
 
 import csv, os, glob
