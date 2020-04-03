@@ -15,7 +15,7 @@
 # 2020-02-27,19:17,BS,"",0,"","","","","",https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
 # 
 # example of an output row after the merge with this script
-# 2020-02-27,19:17,'BS',0,0,0,0,0,0,0,https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html,,
+# 2020-02-27,19:17,'BS',0,0,0,0,0,0,0,'https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html',,
 #
 # this simple script may be improved ;-) 
 #
