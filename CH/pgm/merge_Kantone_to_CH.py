@@ -83,8 +83,7 @@ for lines in sortedlist:
       #print (arr[i])
   
   # source ist ein String
-  # arr[10] = "'"+arr[10]+"'"
-  # arr[10] = "'"+arr[10]+"'"
+  arr[10] = "'"+arr[10]+"'"
 
   # Felder [11] und [12] werden nicht validiert
 
