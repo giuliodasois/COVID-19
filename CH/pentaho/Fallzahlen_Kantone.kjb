@@ -19,7 +19,7 @@
     <database>covid</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc807c69e90aa17bb64db9ea3db</password>
+    <password></password>
     <servername />
     <data_tablespace />
     <index_tablespace />
